@@ -59,7 +59,7 @@ public class TxtParserApp {
         }
 
         if (inputFileNames.isEmpty()) {
-            System.out.println("FILES NOT PASSED IN ARGUMENTS");
+            System.out.println(Ansi.ansi().fg(Ansi.Color.RED).a("FILES NOT PASSED IN ARGUMENTS"));
             System.exit(1);
         } else {
 
