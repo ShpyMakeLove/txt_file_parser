@@ -100,7 +100,7 @@ java -jar target/txt_file_parser-1.0-SNAPSHOT.jar -p hello- -o /home/user/abc/ -
 - Jansi -> 2.4.2
 - Spring Boot Starter Test -> 3.5.3
 - Java -> 17
-- Project Assembler -> Maven -> 3.6.3
+- Project Assembler -> Maven -> 3.4.1
 
 ### TODO
 
