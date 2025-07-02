@@ -4,7 +4,7 @@
 ### Как запустить
 1. Клонируйте репозиторий в любое удобное место на вашем компьютере с помощью команды:
 ```bash
-git clone git@git.shpy.ru:release/txt_file_parser.git
+git clone git@github.com:ShpyMakeLove/txt_file_parser.git
 ```
 2. После этого вам нужно добавить **maven-jar-plugin** для запуска jar-файла из командной строки.
    Чтобы установить **maven-jar-plugin**, вам нужно выполнить команду
