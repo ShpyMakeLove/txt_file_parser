@@ -1,4 +1,4 @@
-# RUSSIAN
+# RUS
 ## Добро пожаловать в приложение для разбора текстовых файлов
 Приложение предназначено для разбора текстовых файлов на различные типы данных
 ### Как запустить
@@ -10,11 +10,11 @@ git clone git@git.shpy.ru:release/txt_file_parser.git
    Чтобы установить **maven-jar-plugin**, вам нужно выполнить команду
    Для Deb:
 ```bash
-sudo apt instal maven-jar-plugin -y 
+sudo apt install maven-jar-plugin -y 
 ```
 Для RPM:
 ```bash
-sudo dnf instal maven-jar-plugin -y 
+sudo dnf install maven-jar-plugin -y 
 ```
 3. Создайте jar-файл
    Перейдите в каталог проекта и выполните команду:
@@ -28,11 +28,11 @@ java -jar target/txt_file_parser-1.0-SNAPSHOT.jar
 ```
 **ВНИМАНИЕ**, если вы хотите запустить программу, вам необходимо заранее подготовить текстовые файлы и указать пути к ним в параметрах запуска.
 Ниже приведены параметры запуска с примерами:
--p — префикс для имен выходных файлов
--o — пользовательский путь для вывода файлов
--a — режим добавления в существующие файлы
--s — краткая статистика (количество элементов, записанных в исходящие файлы)
--f — полная статистика (для чисел: минимальное количество, максимальное количество, среднее значение, сумма элементов.
+- `-p` — префикс для имен выходных файлов
+- `-o` — пользовательский путь для вывода файлов
+- `-a` — режим добавления в существующие файлы
+- `-s` — краткая статистика (количество элементов, записанных в исходящие файлы)
+- `-f` — полная статистика (для чисел: минимальное количество, максимальное количество, среднее значение, сумма элементов.
 Для строк: количество строк, самая короткая и самая длинная строка.)
 
 ### ПРИМЕР
@@ -52,7 +52,7 @@ java -jar target/txt_file_parser-1.0-SNAPSHOT.jar -p hello- -o /home/user/abc/ -
 
 Исправить запуск с параметрами, чтобы он не выдавал ошибку при передаче имени файла и выходного каталога (не влияет на работу)
 
-# ENGLISH
+# ENG
 ## Welcome to Txt File Parser Application
 The application is created for parsing txt files into various files by data types
 ### How to run
@@ -64,11 +64,11 @@ git clone git@git.shpy.ru:release/txt_file_parser.git
 To install **maven-jar-plugin** you need to run the command
 For Deb:
 ```bash
-sudo apt instal maven-jar-plugin -y 
+sudo apt install maven-jar-plugin -y 
 ```
 For RPM:
 ```bash
-sudo dnf instal maven-jar-plugin -y 
+sudo dnf install maven-jar-plugin -y 
 ```
 3. Build jar-file
 cd into project directory, then run:
@@ -82,11 +82,11 @@ java -jar target/txt_file_parser-1.0-SNAPSHOT.jar
 ```
 **WARNING**, if you want to run the program, you must prepare txt files in advance and pass the paths to the files to the launch parameters
 Below are the launch parameters with examples:
--p is the prefix of the output file names
--o - Custom path for file output
--a - Mode for adding to existing files
--s - Short statistics (number of items recorded in outgoing files)
--f - Full statistics (For numbers: minimum quantity, maximum quantity, average, sum of elements.
+- `-p` — is the prefix of the output file names
+- `-o` — Custom path for file output
+- `-a` — Mode for adding to existing files
+- `-s` — Short statistics (number of items recorded in outgoing files)
+- `-f` — Full statistics (For numbers: minimum quantity, maximum quantity, average, sum of elements.
 For strings: number of strings, shortest string and longest.)
 
 ### EXAMPLE
